@@ -35,6 +35,7 @@ N/A
 
 N/A
 
-## Tests
+## Deployed Link and GitHub Repo
 
-N/A
+https://callmeice.github.io/Updated-Portfolio/
+https://github.com/CallMeIce
