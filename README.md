@@ -19,7 +19,7 @@ This is a user friendly portfolio, meaning that all you would really have to do 
 ![alt="Image of portfolio on website](./images/_C__Users_isaak_Desktop_homework_Updated-Portfolio_index.html.png)
 ## Credits
 
-code by codingflicks.com
+gradient animated code by https://www.sliderrevolution.com/resources/css-animated-background/
 
 www.bootstrap.com
 

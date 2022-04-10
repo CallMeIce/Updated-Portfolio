@@ -1,53 +1,69 @@
 <!DOCTYPE html>
-<!--code by codingflicks.com-->
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>Isaak's Updated Portfolio</title>
+  <title>Isaak's Portfolio</title>
+  <meta charset="UTF-8" />
   <!-- CSS only -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  <div class="homepage">
+  <header id="top">
+    <h1>Isaak Morales</h1>
+    <a href="#top"><img class="sticky" src="./images/112x112 Callme Emote 1.png" alt="Hello Emote"></a>
+  </header>
+
+  <nav class="position-absolute top-0 end-0 d-flex justify-content-end">
+      <a href="#About Me">About Me</a>
+      <a href="#project">Project</a>
+      <a href="#Side Projects">Side Projects</a>
+      <a href="#Contact Me">Contact Me</a>
+  </nav>
+
+  <section class="aboutme" id="About Me">
+    <h1>About Me</h1>
+    <p id="me">
+      <img id="avatar" src="./images/callmeice_icon.png" alt="Twitch Icon of me" width="585.81px" style="border:solid 5px grey;">
+      Some things about me are that I am a good team player and can adapt my personality very easily to get along with
+      people when working on a project. It's nice when you have a group to bounce ideas, check over each others work and
+      even just make new friends along the way.
+      When it comes working alone. I usually am really dedicated to working on the project and put all of my focus on
+      the project. Occasional breaks here and there but, I always want to present the best project I'm able to give.
+      Outside of work, I have many hobbies like fishing,
+      playing sports, gaming, and even playing some chess.
+    </p>
+  </section>
+
+  <section class="project" id="project">
+    <h1>Project</h1>
+    <p class="image">
+      <a href="https://github.com/CallMeIce/Horiseon-Refactor">
+        <img src="./images/Horiseon-Refactor-Website.png" alt="Horiseon Refactor Project" width="585.81px" style="border:solid 5px
+         grey;">
+      </a>
+    </p>
+  </section>
+
+  <section class="placeholder">
+    <h1>Side Projects</h1>
+    <a href="https://github.com/CallMeIce/Weekday-Planner"><img src="./images/Daily Plan.png" alt="Daily Planner" width="344px" style="border:solid 5px grey;"></a>
+    <a href="https://github.com/CallMeIce/Weather-Dashboard"><img src="./images/_C__Users_isaak_Desktop_homework_Weather-Dashboard_index.html (1).png" alt="Weather Dashoard Project" width="344px" style="border:solid 5px grey;"></a>
+    <a href="https://github.com/CallMeIce/Password-Generator"><img src="./images/Password-Generator.html.png" alt="Password Generator" width="344px" style="border:solid 5px grey;"></a>
+    
+  
+  </section>
+
+  <footer class="contact" id="Contact Me">
+    <h1>Contact Me</h1>
     <ul>
-      <li><a href="./images/Isaak Morales Resume.pdf" download="Isaak Morales Resume">Resume</a></li>
-      <li><a href="https://github.com/CallMeIce">Projects</a></li>
-      <li><a href="https://www.linkedin.com/in/isaak-morales-9466a0233">Contact Me</a></li>
+      <li><a href="555.555.5555">555.555.5555</a></li>
+      <li><a href="imorales@website.com">imorales@website.com</a></li>
+      <li><a href="https://github.com/CallMeIce">Github</a></li>
+      <li><a href="https://www.linkedin.com/in/isaak-morales-9466a0233/">LinkedIn</a></li>
     </ul>
-    <h2>Isaak Morales</h2>
-
-
-    <section class="text-white text-center w-50 p-3 fs-3 position-absolute top-50 start-50 translate-middle">
-      I am an aspiring full stack web developer taking the Penn LPS bootcamp course. I am putting all my effort and
-      energy into this bootcamp as it will become my future career. I am a hardworking individual who likes to learn
-      as much as I possibly can while meeting and collaborating with different colleagues of mine.
-    </section>
-    <img
-      class="img-fluid position-absolute bottom-0 start-50 translate-middle border border-dark rounded mx-auto d-block"
-      id="avatar" src="./images/callmeice_icon.png" alt="Twitch Icon of me">
-  </div>
-
-  <div class="boxes">
-    <ul class="single-box">
-      <li><img src="./images/Daily Plan.png" alt="Daily Planner" height="300px"></li>
-      <li><img src="./images/_C__Users_isaak_Desktop_homework_Weather-Dashboard_index.html (1).png"
-          alt="Weather Dashboard" height="300px"></li>
-      <li><img src="./images/portfolio-pic.jpeg" alt="First Portfolio" height="300px"></li>
-      <li><img src="./images/Password-Generator.html.png" alt="Password Generator" height="300px"></li>
-      <li><img src="./images/WatchMe Project.png" alt="Project-One" height="300px"></li>
-      <li><img src="./images/Horiseon-Refactor-Website.png" alt="Refactor" height="300px"></li>
-    </ul>
-  </div>
-
-
-
-
-
-
+  </footer>
 </body>
 
 </html>
